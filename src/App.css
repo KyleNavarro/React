@@ -1,0 +1,33 @@
+.tw-follow-card {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.tw-follow-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tw-follow-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.tw-follow-card-infoUserName {
+  opacity: 0.6;
+}
+
+.tw-follow-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 1000px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

@@ -1,20 +1,12 @@
+import "./App.css";
+import { TwFollorCard } from "./twFollowCard.jsx";
+
 export function App() {
   return (
-    <article>
-      <header>
-        <img
-          src="https://avatars.githubusercontent.com/u/78277423?v=4&size=40"
-          alt="foto perfil kyle github"
-        />
-        <div>
-          <strong>Kyle Navarro</strong>
-          <span>@kyle</span>
-        </div>
-      </header>
-
-      <aside>
-        <button>Seguir</button>
-      </aside>
-    </article>
+    <section className="App">
+      <TwFollorCard isFollowing userName="KyleNavj" name="Kyle Navarro" />
+      <TwFollorCard isFollowing userName="midudev" name="Migel angel duran" />
+      <TwFollorCard isFollowing userName="pheralb" name="Pablo Hernandez" />
+    </section>
   );
 }
