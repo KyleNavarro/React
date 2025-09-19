@@ -4,7 +4,11 @@ import { TwFollorCard } from "./twFollowCard.jsx";
 export function App() {
   return (
     <section className="App">
-      <TwFollorCard isFollowing userName="KyleNavj" name="Kyle Navarro" />
+      <TwFollorCard
+        inicialIsFollowing={true}
+        userName="KyleNavj"
+        name="Kyle Navarro"
+      />
       <TwFollorCard
         isFollowing={false}
         userName="midudev"
